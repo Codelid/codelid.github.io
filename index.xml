@@ -1,32 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-
-
 <html>
-  
 <head>
 </head>
-  
 <body>
-  
-  <div id="background">
-    Paiges Website Test
+  <div id="background">Paiges Website Test
     <div class="centered-element center-x">
-      <h1 style="color:grey;">
-    
-      Paiges Test Website
+      <h1 style="color:grey;">Paiges Test Website
       </h1>
     </div>
   </div>
-  <div id="bodyp">
-    his is a example for me on what lookes good for a website
+  <div id="bodyp">his is a example for me on what lookes good for a website
   </div>
-  
   <div id="bottom">
-    <div class="centered-element">
-      ©Paiges Site
+    <div class="centered-element">©Paiges Site
     </div>
   </div>
-  
-  
 </body>
 </html>

@@ -1,68 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<!DOCTYPE html>
-<style> 
-  #background {
-  position:fixed;
-    top:0;
-    left:0;
-    width:100%;
-    height:20%;
-    background-color:black;
-    color:grey;
-    
-  }
-  #bottom {
-  position:fixed;
-    bottom:0;
-    left:0;
-    width:100%;
-    height:5%;
-    background-color:black;
-    color:grey;
-  }
-  #bodyp {
-  position:fixed;
-    top:20%;
-  }
-  * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-} 
-  #top-bar {
-    position:fixed;
-    top:0;
-    left:0;
-    width:100%;
-    height:10%;
-    background-color:#ffffff50;
-  }
 
-.container {
-  position: relative;
-  height: 400px;
-  border: 2px solid #006100;
-}
-
-.centered-element {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-}
-  .center-x {
-    margin: 0;
-    position: absolute;
-    left: 50%;
-    
-    transform: translateX(-50%);
-    
-  }
-  
-  
-  
-  
-</style>
 
 <html>
   
@@ -79,7 +16,7 @@
 <body>
   
   <div id="background">
-    <div id="top=bar"></div>
+    Paiges Website Test
     <div class="centered-element center-x"><h1 style="color:grey;">
     
     Paiges Test Website
@@ -88,9 +25,7 @@
       This is a example for me on what lookes good for a website
   </div>
   
-  <div id="bottom"><div class="centered-element"><a href="https://pagenotfound40.github.io/">
-    ©Paiges Site
-    </a></div></div>
+  <div id="bottom"><div class="centered-element">©Paiges Site </div></div>
   
   
 </body>

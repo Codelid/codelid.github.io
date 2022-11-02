@@ -17,9 +17,9 @@
         This is a example for me on what lookes good for a website
     </div>
     <div id="bottom">
-      <div class="centered-element">
-        <a href="https://pagenotfound40.github.io/">
-        ©Paiges Site
+      <div class="centered-element" style="">
+        <a href="https://pagenotfound40.github.io/" style="color:white; text-decoration:none;">
+        ©CodeLid
         </a>
       </div>
     </div>

@@ -1,19 +1,35 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <html>
-<head>
-</head>
-<body>
-  <div id="background">Paiges Website Test
-    <div class="centered-element center-x">
-      <h1 style="color:grey;">Paiges Test Website
-      </h1>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+  </head>
+  <body>
+    <div class="webpage">
+      <div style="position:absolute; top:10%; background-color:grey; width:100%; height:1px;"> </div>
     </div>
-  </div>
-  <div id="bodyp">his is a example for me on what lookes good for a website
-  </div>
-  <div id="bottom">
-    <div class="centered-element">©Paiges Site
+    <div id="background">
+      <div id="top=bar">
+      </div>
+      <div class="centered-element center-x">
+        <h1 style="color:grey;">
+        Paiges Test Website
+        </h1>
+      </div>
     </div>
-  </div>
-</body>
+      <div id="bodyp">
+        This is a example for me on what lookes good for a website
+    </div>
+    <div id="bottom">
+      <div class="centered-element">
+        <a href="https://pagenotfound40.github.io/">
+        ©Paiges Site
+        </a>
+      </div>
+    </div>
+    <div class="hudbar">
+      <div class="sitename">Paiges site
+      </div>
+    </div>
+  </body>
 </html>

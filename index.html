@@ -1,9 +1,15 @@
 <!DOCTYPE html>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
     <script> 
+      x = "/tabs/main.html";
+      function mF() {
+        x = "";
+        $("#includedContent").load(x); 
+      }
     $(function(){
-      $("#includedContent").load("/tabs/main.html"); 
+      $("#includedContent").load(x); 
     });
+      
     </script> 
 <style> 
   div.sticky {

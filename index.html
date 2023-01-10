@@ -11,6 +11,11 @@
     });
       
     </script> 
+<script>
+function ff() {
+    $("#includedContent").load('/test/testing.html');
+}
+</script>
 <style> 
   div.sticky {
     position: -webkit-sticky;
@@ -99,6 +104,14 @@
     transform:translatey(-50);
     left:2%
   }
+  .sitetest {
+      margin:0;
+      color:white;
+      position:absolute;
+      top:25%;
+      transform:translatey(-50);
+      left:2%;
+    }
 </style>
 <html>
   <head>
@@ -120,6 +133,8 @@
     <div class="topbar">
         
       <div class="sitename"> Fort Osage
+      </div>
+      <div class="sitetest"><a > test
       </div>
     </div>
   </body>

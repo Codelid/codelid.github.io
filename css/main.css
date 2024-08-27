@@ -1,8 +1,16 @@
+/* Page transition effect */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: #1c1c1c; /* Blackish grey */
     color: #ddd; /* Light grey text */
+    opacity: 0; /* Start with hidden opacity */
+    transition: opacity 0.5s ease-in-out; /* Smooth fade-in transition */
+}
+
+/* Make body fully opaque once the page is loaded */
+body.loaded {
+    opacity: 1;
 }
 
 .navbar {
@@ -100,6 +108,44 @@ main {
 
 main h2 {
     color: #3498db; /* Blue */
+}
+
+form {
+    background-color: #1c1c1c; /* Blackish grey */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    color: #ddd; /* Light grey */
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #3498db; /* Blue border */
+    border-radius: 4px;
+    background-color: #121212; /* Really dark grey */
+    color: #ddd; /* Light grey */
+}
+
+form button {
+    background-color: #3498db; /* Blue */
+    color: #fff; /* White text */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #2980b9; /* Darker blue on hover */
 }
 
 footer {

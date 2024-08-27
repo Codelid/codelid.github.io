@@ -56,7 +56,7 @@ body.loaded {
     display: flex;
     flex: 1;
     justify-content: center;
-    gap: 60px; /* Adjust gap if needed */
+    gap: 5%; /* Set the gap between navigation links to 5% */
 }
 
 .nav-links li {

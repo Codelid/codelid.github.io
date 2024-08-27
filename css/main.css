@@ -34,14 +34,15 @@ body.loaded {
     display: flex;
     width: 100%;
     align-items: center;
-    position: relative;
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0 20px; /* Padding to avoid edge-to-edge layout */
+    box-sizing: border-box; /* Include padding in width calculations */
 }
 
 .logo {
-    position: absolute;
-    left: 20px;
+    margin-right: 20px; /* Space between the logo and the nav links */
+    flex-shrink: 0; /* Prevent shrinking */
 }
 
 .logo-text {
@@ -168,6 +169,6 @@ footer {
     padding: 10px;
     text-align: center;
     box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.3);
-    position: relative; /* Ensure it’s positioned relative to the document flow */
     width: 100%;
+    position: relative; /* Ensure it’s positioned relative to the document flow */
 }
